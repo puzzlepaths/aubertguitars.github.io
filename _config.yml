@@ -1,30 +1,32 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
 
-# About/contact
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Greg Aubert | Digital Marketing & Coding
+
+description: Digital Marketing and Coding
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name: Greg Aubert
+  email: gaj.aubert@gmail.com
+  github: 
+  twitter: 
+  pinterest: 
+  linkedin: https://uk.linkedin.com/in/gregaubert
+  bio: Digital Marketing & Coding
+  email_md5: 
 
-# Custom vars
-version:             1.0.0
-github:
-  repo:              https://github.com/poole/poole
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:

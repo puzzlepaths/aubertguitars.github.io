@@ -1,0 +1,29 @@
+<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="{{ site.BASE_PATH }}/">
+		<img src="{{ site.BASE_URL }}/assets/media/profile-picture3.jpg" class="img-circle" />
+	</a>
+	<h3 class="title">
+        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
+    </h3>
+</header>
+
+{% if site.author.bio %}
+<div id="bio" class="text-center author-title">
+	Greg Aubert
+</div>
+<div id="bio" class="text-center">
+	{{ site.author.bio }}
+</div>
+{% endif %}
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		<li>
+			<a class="btn btn-default btn-sm" href="https://uk.linkedin.com/in/gregaubert" target="_blank">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
