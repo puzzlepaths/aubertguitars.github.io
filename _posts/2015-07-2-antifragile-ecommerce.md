@@ -17,7 +17,7 @@ It's an intriguing thought, and it got me thinking of how this would apply to ec
 
 ###Fragile Inc.
 Things at Fragile Inc. have not been going well. Customer satisfaction has hit the floor, while customer complaints have hit the roof. Consultants are duly brought in and they find things in an alarming state of affairs. <br>
-They find that there aren't any staff reponsible for handling customer enquiries. Instead, enquiries go into a big inbox and are dealt with by junior marketing executives who are balancing a number of other tasks. It's constant firefighting. And when a surge of enquiries come in, like it did at Christmas, a lot simply go answered. This leads to lower conversion rates and a number of purchasers getting confused and ordering the wrong item. They start leaving bad reviews, some of which are becoming visible in search results.  Organic traffic has been steadily decreasing. 
+They find that there aren't any staff reponsible for handling customer enquiries. Instead, enquiries go into a big inbox and are dealt with by junior marketing executives who are balancing a number of other tasks. Its constant firefighting. And when a surge of enquiries come in, like it did at Christmas, a lot simply go answered. This leads to lower conversion rates and a number of purchasers getting confused and ordering the wrong item. They start leaving bad reviews, some of which are becoming visible in search results.  Organic traffic has been steadily decreasing. 
 
 In short, this company is **fragile**.  As the environment becomes more uncertain (i.e. customer enquiries increase) it becomes weaker.  It cracks under pressure and it's performance nose-dives. 
 
@@ -37,7 +37,7 @@ This company exhibits some traits of **antifragility**. The more customer enquir
 
 This is just one example. There are likely many, many more. It's an interesting way of thinking about how to set up business processes that encourage upward spirals rather than to just absorb pressure.  
 
-Thanks for reading.
+Could your company become more antifragile? 
 
 
 
