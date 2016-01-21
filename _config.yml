@@ -12,10 +12,10 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: "Aubert Guitars | Guitar repair in Surrey, Wimbledon, Kingston, Sutton & Worcester Park"
+      title: Aubert Guitars | Guitar Repair in Surrey, Wimbledon, Kingston, Sutton and Worcester Park
 
-description: "Guitar repair in Surrey, Wimbledon, Kingston, Sutton & Worcester Park"
-author: Arthur Aubert
+description: Guitar Repair in Surrey, Wimbledon, Kingston, Sutton and Worcester Park
+author:
   name: Arthur Aubert
   email: arthur.aubert@yahoo.co.uk
   github: 
