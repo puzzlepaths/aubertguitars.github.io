@@ -12,17 +12,17 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Greg Aubert | Digital Marketing & Coding
+      title: Aubert Guitars | Guitar repair in Surrey
 
-description: Digital Marketing and Coding
+description: Guitar repair 
 author:
   name: Greg Aubert
   email: gaj.aubert@gmail.com
   github: 
   twitter: 
   pinterest: 
-  linkedin: https://uk.linkedin.com/in/gregaubert
-  bio: Digital Marketing & Coding
+  linkedin: 
+  bio: 
   email_md5: 
 
 rss_path: feed.xml
