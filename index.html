@@ -4,78 +4,130 @@ tagline:
 
 ---
 
-{% for post in paginator.posts %}
+<div class="pure-g position-relative">
+	<div class="pure-u-sm-1 homepage-hero triangle">
+			<div class="pure-u-sm-1 homepage-title">
+				<h1>Professional guitar repairs</h1>
+			 </div>
+			 <div class="pure-u-sm-1 homepage-subtitle">
+			 	<p>Surrey & South London </p>
+			 </div>
+			 <div class="line-break"></div>
+			 <div class="pure-u-sm-1 homepage-paragraph">
+			 	<p>Fast, friendly and efficient guitar services in the Worcester Park, Sutton, Kingston and Wimbledon area. <br>Electric, acoustic, classical and bass guitars all welcome. </p>
+			 </div>
+			 <div class="pure-u-sm-1 homepage-button-container">
+			 	<div class="pure-u-sm-1-2 homepage-hero-button left-button">Phone</div>
+			 	<div class="pure-u-sm-1-2 homepage-hero-button right-button">Prices</div>
+			</div>
+	</div>
+</div>
 
-<article class="home article-home">
+<div class="pure-g usps-container">
+	<div class="pure-u-sm-1 pure-u-lg-1-3 homepage-usps">
+		<i class="usps-img fa fa-clock-o"></i>
+		<h2 class="usps-title">Extended opening hours</h2>
+		<p class="usps-text">Drop-off and collect your guitar between 9am-9pm.</p>
+	</div>
+	<div class="pure-u-sm-1 pure-u-lg-1-3 homepage-usps">
+		<i class="usps-img fa fa-car"></i>
+		<h2 class="usps-title">Free & Easy Parking</h2>
+		<p class="usps-text">No headaches parking your car right outside.</p>
+	</div>
+	<div class="pure-u-sm-1 pure-u-lg-1-3 homepage-usps">
+		<i class="usps-img fa fa-comments-o"></i>
+		<h2 class="usps-title">Direct Contact</h2>
+		<p class="usps-text">You'll be speaking directly with the luthier, Arthur, at all times. </p>
+	</div>
+</div>
 
-<!--   <span class="post-date">
-    {% assign d = post.date | date: "%d" | plus:'0' %}
-    {{ post.date | date: "%B" }}
-    {% case d %}
-    {% when 1 or 21 or 31 %}{{ d }}st,
-    {% when 2 or 22 %}{{ d }}nd,
-    {% when 3 or 23 %}{{ d }}rd,
-    {% else %}{{ d }}th,
-    {% endcase %}
-    {{ post.date | date: "%Y" }}
-  </span> -->
+<!-- <div class="pure-g">
+	<div class="pure-u-sm-1 homepage-map">
+		<div class="map-overlay" onClick="style.pointerEvents='none'"></div>
+		<iframe class="iframe-map" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBn-2D8hbaTNfXfqn9OoVVpwq5-gcR2LNU
+  			&q=Aubert+Guitars, Worcester+Park
+  			&attribution_source=Google+Maps+Embed+API" 
+			allowfullscreen>
+		</iframe>
+	</div>
+</div> -->
 
-  <h2>
-    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-  </h2>
+<div class="pure-g">
+	<div id="homepage-map"></div>
+</div>
 
-  <div>
-    {% if post.fullview %}
-    {{ post.content }}
-    {% else %}
-    {% if post.shortinfo %}
-    {{ post.shortinfo }}
-    {% elsif post.description %}
-    {{ post.description }}
-    {% else %}
-    {{ post.excerpt }}
-    {% endif %}
-    {% endif %}
-  </div>
-  <p>
-    ...
-  </p>
-  <p>
-    <a class="home-read-more" href="{{ site.BASE_PATH }}{{ post.url }}"> Read more </a>
-  </p>
+<script type="text/javascript">
+	var map;
+	function initMap() {
+		var myLocation = {lat: 51.384149, lng: -0.248354};
+		map = new google.maps.Map(document.getElementById('homepage-map'), {
+		center: myLocation,
+		zoom: 15,
+			scrollwheel: false 
+		});
+		var marker = new google.maps.Marker({
+		    position: {lat: 51.384149, lng: -0.248354}
+		});
+		marker.setMap(map);
+	}
+</script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB50IydUrStD2My18bafWwxXnSFxZr2VGM&callback=initMap">
+</script>
+<div class="pure-g location-text">
+	<div class="pure-u-1">
+		<h2>Visit us</h2>
+		<p>Worcester Park <br> KT4 7SQ</p>
+		<div class="line-break-2"></div>
+	</div>
+</div>
 
-</article>
-{% endfor %}
-<hr/>
 
-<ul class="pager"> 
 
-  {% if paginator.previous_page %}
-  <li class="previous">
-    {% if paginator.previous_page == 1 %}
-    <a href="{{ site.BASE_PATH }}/">&larr; Newer</a>
-    {% else %}
-    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.previous_page }}">&larr; Newer</a>
-    {% endif %}
-  </li>
-  {% else %}
-  <li class="previous disabled">
-    <a>&larr; Newer</a>
-  </li>
-  {% endif %}
-  
-  <li>
-    <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  </li>
+<div class = "pure-g gallery-container block-container">
+	<img class="pure-u-sm-1 pure-u-md-1-3 gallery-img" src="/assets/media/gallery-1.jpg">
+	<img class="pure-u-sm-1 pure-u-md-1-3 gallery-img" src="/assets/media/gallery-3.jpg">
+	<img class="pure-u-sm-1 pure-u-md-1-3 gallery-img" src="/assets/media/gallery-2.jpg">
+	<div class="pure-u-sm-1 homepage-hero-button block-button black-button">Gallery</div>
+</div>
 
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.next_page }}">Older &rarr;</a>
-  </li>
-  {% else %}
-  <li class="next disabled">
-    <a>Older &rarr;</a>        
-  </li>
-  {% endif %}
+<div class = "pure-g workshop-container block-container">
+	<div class="workshop-bg-img"></div>
+	<!-- <img class="pure-u-sm-1 workshop-img" src="/assets/media/bikes.jpg"> -->
+	<div class="pure-u-sm-1 homepage-hero-button block-button black-button">Workshop</div>
+</div>
 
-</ul>
+
+<div class="pure-g">
+    <div class="quotes">
+    	<div class="quotes-inner">
+			<h2 class="quotes-title">What customers <span>are saying</span></h2>
+    		<ul class="quotes-features clearfix row">
+    			<li class="quotes-feature pure-u-sm-1 pure-u-lg-1-3">
+					<div class="quotes-text-container">
+						<p class="quotes-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi commodi libero hic debitis dolore sequi aperiam quae odio, eaque, aliquid est reprehenderit sit molestiae accusantium quasi, harum ipsum quisquam aspernatur. </p>
+						<p class="quotes-author">Paul</p>
+					</div>
+    			</li>
+    			<li class="quotes-feature pure-u-sm-1 pure-u-lg-1-3">
+					<div class="quotes-text-container">
+						<p class="quotes-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi commodi libero hic debitis dolore sequi aperiam quae odio, eaque, aliquid est reprehenderit sit molestiae accusantium quasi, harum ipsum quisquam aspernatur.</p>
+						<p class="quotes-author">John</p>
+					</div>
+    			</li>
+    			<li class="quotes-feature pure-u-sm-1 pure-u-lg-1-3">
+					<div class="quotes-text-container">
+						<p class="quotes-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi commodi libero hic debitis dolore sequi aperiam quae odio, eaque, aliquid est reprehenderit sit molestiae accusantium quasi, harum ipsum quisquam aspernatur.  </p>
+						<p class="quotes-author">George</p>
+					</div>
+    			</li>
+    		</ul>
+    	</div>
+    </div>
+</div>
+
+{% include footer.html %}
+
+
+

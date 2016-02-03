@@ -12,31 +12,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!--  styles -->
-	<link href="{{ site.BASE_PATH }}/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/resources/syntax/syntax.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/css/style.css" rel="stylesheet">
+	<link href="{{ site.BASE_PATH }}/assets/css/responsive-nav.css" rel="stylesheet">
+	<script src="{{ site.BASE_PATH }}/assets/js/responsive-nav.js"></script>
 
-	<!-- fav and touch icons -->
-	<!-- Update these with your own images
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	-->
+
+
+
+	<!-- Pure Grid -->
+	<!-- <link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/css/grids-core-min.css"> -->
+	<!--[if lte IE 8]>
+	  <link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/css/grids-responsive-old-ie-min.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+	  <link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/css/grids-responsive-min.css">
+	<!--<![endif]-->
 
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.BASE_PATH }}/feed.xml">
 </head>
 <body>
-	<div class="col-sm-3 sidebar hidden-xs">
-		{% include sidebar.html %}
-	</div>
 
-	<div class="col-sm-9 col-sm-offset-3">
-		{{ content }}
-	</div>
+	{{ content }}
+	
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
+	<script>
+      var navigation = responsiveNav(".nav-collapse", {
+        insert: "before"
+      });
+	</script>
 </body>
 </html>
