@@ -92,7 +92,7 @@ body {
 
 /*HOMEPAGE*/
 .block-container {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .homepage-hero {
@@ -302,7 +302,7 @@ body {
 
 .block-button {
     display: block!important ;
-    margin: 30px auto 0px auto ;
+    margin: 30px auto 44px auto ;
 }
 
 .black-button {
