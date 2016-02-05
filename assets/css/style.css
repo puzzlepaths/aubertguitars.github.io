@@ -327,6 +327,9 @@ body {
 
 
 /*footer*/
+.footer-container {
+    padding-top: 30px;
+}
 
 .footer-ul ul {
     text-align: center
@@ -352,12 +355,51 @@ body {
 }
 
 
+/*General Other Pages*/
+.title-container {
+    margin-top: 83px;
+    text-align: center;
+    background-image: url("/assets/media/guitar8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.title-container h1 {
+    padding-top: 50px;
+    color: white;
+}
+
+
+
+/*Price List Page*/
+.price-table-container {
+    text-align: center;
+}
+
+.price-table {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.price-table tbody {
+    text-align: left;
+}
+
+
+
 /*MEDIA QUERIES*/
 
 /*where 3 across becomes 1 */
 @media screen and (max-width: 1023px){
     .homepage-usps:nth-child(-n+2){
         margin-bottom: 30px;
+    }
+
+    .price-table td:nth-child(2){
+        width: 30%;
     }
 }
 
