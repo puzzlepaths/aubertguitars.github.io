@@ -19,6 +19,14 @@
 	<link href="{{ site.BASE_PATH }}/assets/css/tables.css" rel="stylesheet">
 	<script src="{{ site.BASE_PATH }}/assets/js/responsive-nav.js"></script>
 
+	<!-- Photoswipe CSS and JS for Gallery -->
+	{% if page.gallery %}
+	<link href="{{ site.BASE_PATH }}/assets/css/photoswipe.css" rel="stylesheet">
+	<link href="{{ site.BASE_PATH }}/assets/css/default-skin.css" rel="stylesheet">
+	<script src="{{ site.BASE_PATH }}/assets/js/photoswipe.js"></script>
+	<script src="{{ site.BASE_PATH }}/assets/js/photoswipe-ui-default.js"></script>
+	{% endif %}
+
 
 
 
@@ -39,6 +47,9 @@
 	
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
+	{% if page.gallery %}
+	<script src="{{ site.BASE_PATH }}/assets/js/aubertguitars-photoswipe.js"></script>
+	{% endif %}
 	<script>
       var navigation = responsiveNav(".nav-collapse", {
         insert: "before"

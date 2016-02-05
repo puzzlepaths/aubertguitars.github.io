@@ -388,7 +388,23 @@ body {
     text-align: left;
 }
 
+/*Gallery*/
 
+.my-gallery {
+    margin-top: 30px;
+}
+
+.my-gallery figure {
+    width: 33%;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.my-gallery img {
+    max-width: 80%;
+}
 
 /*MEDIA QUERIES*/
 
@@ -401,6 +417,10 @@ body {
     .price-table td:nth-child(2){
         width: 30%;
     }
+
+    .my-gallery figure {
+    width: 100%;
+}
 }
 
 /*LESS THAN MD = 768px */
