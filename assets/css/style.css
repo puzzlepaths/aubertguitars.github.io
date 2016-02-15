@@ -378,9 +378,12 @@ body {
     text-align: center;
 }
 
+.price-guide-p {
+    margin-top: 60px;
+}
+
 .price-table {
     display: inline-block;
-    margin-top: 60px;
     margin-bottom: 40px;
 }
 
@@ -406,6 +409,42 @@ body {
     max-width: 80%;
 }
 
+/*About*/
+.page-container {
+    margin-top: 60px;
+    padding: 0px 10%;
+}
+
+.about-img-container {
+    background-image: url('/assets/media/workshop-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 30%!important;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+/*Contact*/
+.contact-address, .contact-phone {
+    text-align: center;
+}
+
+.contact-address {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#contact-map {
+    height:400px;
+}
+
+/*Workshop*/
+.workshop-container {
+    text-align: center;
+}
+
 /*MEDIA QUERIES*/
 
 /*where 3 across becomes 1 */
@@ -419,8 +458,12 @@ body {
     }
 
     .my-gallery figure {
-    width: 100%;
-}
+        width: 100%;
+    }
+
+    .about-img-container {
+        display:none;
+    }
 }
 
 /*LESS THAN MD = 768px */
@@ -435,6 +478,29 @@ body {
     .footer-ul ul {
         display:none;
     }
+
+    .line-break-about {
+        margin:25px auto;
+    }
+}
+
+/*MORE THAN MD = 768px */
+@media screen  and (min-width: 768px) {
+    .about-text-2 {
+        margin-top: 40px;
+    }
+
+    .about-text-2-p {
+        width:100;
+        margin:auto;
+    }
+
+    .about-text-1 p {
+        margin-top:0px!important;
+    }
+
+
+
 }
 
 /*Navbar hamburger*/
