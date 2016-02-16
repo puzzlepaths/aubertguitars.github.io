@@ -100,8 +100,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 110vh;
-    max-height: 120vh;
+/*    min-height: 110vh;
+    max-height: 120vh;*/
     padding-top: 63px;
 }
 
@@ -511,7 +511,7 @@ body {
 
     .homepage-hero {
         height: 688px;
-        opacity: 0.1;
+        /*opacity: 0.1;*/
     }
 }
 

@@ -4,6 +4,7 @@ $( document ).ready(function() {
 	jQuery(window).resize("resizeBackground");
 	function resizeBackground() {
 	    bg.height(jQuery(window).height() + 60);
+	    console.log('resize');
 	}
 	resizeBackground();
 
