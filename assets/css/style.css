@@ -160,6 +160,32 @@ body {
     opacity: 0.65;
 }
 
+.homepage-central-button {
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 11px;
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+    min-width: 150px;
+}
+
+.homepage-central-button:hover {
+    cursor: pointer; 
+    opacity: 0.65;
+}
+
+.central-button-container {
+    text-align: center;
+}
+
+.central-button-container a {
+    display:inline-block;
+    margin:30px auto 44px auto;
+    /*width:15%;*/
+}
+
 .left-button {
     margin-right: 19px;
 }
@@ -481,6 +507,10 @@ body {
 
     .line-break-about {
         margin:25px auto;
+    }
+
+    .homepage-hero {
+        height: 688px;
     }
 }
 
