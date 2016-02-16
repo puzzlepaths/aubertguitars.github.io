@@ -19,6 +19,7 @@ $( document ).ready(function() {
 
 	if (isMobile) {
 		$('#homepage-phone').prop("href", "tel: +447400065409")
+		$('#contact-phone').prop("href", "tel: +447400065409");
 	}
 
 //end Jquery

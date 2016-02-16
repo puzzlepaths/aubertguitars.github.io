@@ -467,6 +467,11 @@ body {
     height:400px;
 }
 
+#contact-phone {
+    color: black;
+    text-decoration: underline;
+}
+
 /*Workshop*/
 .workshop-container {
     text-align: center;
