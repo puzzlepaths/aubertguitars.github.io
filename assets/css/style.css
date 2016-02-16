@@ -467,7 +467,7 @@ body {
     height:400px;
 }
 
-#contact-phone {
+#contact-phone, #homepage-phone-2 {
     color: black;
     text-decoration: underline;
 }
@@ -539,8 +539,9 @@ body {
         margin-top:0px!important;
     }
 
-
-
+    #contact-phone {
+        text-decoration: none;
+    }
 }
 
 /*Navbar hamburger*/
