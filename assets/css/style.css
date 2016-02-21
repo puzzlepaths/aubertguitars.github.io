@@ -407,6 +407,7 @@ body {
 
 .price-guide-p {
     margin-top: 60px;
+    font-family: Avenir-Heavy;
 }
 
 .price-table {
@@ -416,6 +417,11 @@ body {
 
 .price-table tbody {
     text-align: left;
+}
+
+.priceguide-please-note, .please-note-ul  {
+    text-align: left;
+    padding: 0px 19%;
 }
 
 /*Gallery*/
@@ -521,6 +527,10 @@ body {
 
     .map-overlay {
         display:inherit;
+    }
+
+    .priceguide-please-note, .please-note-ul {
+        padding: 0px 8%;
     }
 }
 
