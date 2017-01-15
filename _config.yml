@@ -12,12 +12,12 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Aubert Guitars | Guitar Repair in Surrey, Wimbledon, Kingston, Sutton and Worcester Park
+      title: Puzzle Paths - Bath's New Outdoor Walking Tour Adventure
 
-description: Friendly and efficient guitar services in the Worcester Park, Sutton, Kingston and Wimbledon area. Electric, acoustic, classical and bass guitars all welcome.
+description: Puzzle Paths is the new way to explore Bath. Download and print out the mystery. Solving it will take you to all of the best sights in Bath!
 author:
-  name: Arthur Aubert
-  email: arthur.aubert@yahoo.co.uk
+  name: Greg
+  email: greg.puzzlepaths@gmail.com
   github: 
   twitter: 
   pinterest: 

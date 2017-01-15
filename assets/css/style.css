@@ -63,7 +63,7 @@ body {
     z-index: 2000;
     position: fixed;
     width: 100%;
-    padding-top: 20px;
+    padding-bottom: 9px;
     padding-left: 20px;
     background-color: rgba(0,0,0,1);
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .homepage-hero {
-    background-image: url("/assets/media/guitar8.jpg");
+    background-image: url("/assets/media/roman-baths-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,11 +105,19 @@ body {
     padding-top: 63px;
 }
 
+.homepage-bg-container {
+    background-color: #565726;
+    opacity: 0.88;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    width: 70%;
+}
+
 .homepage-title {
     color: white;
     font-family: Avenir-heavy;
     text-align: center;
-    margin-top: 180px;
     text-transform: uppercase;
     letter-spacing: 7px!important;
     font-size: 1.4em;
@@ -344,7 +352,7 @@ body {
 }
 
 .workshop-bg-img {
-    background-image: url("/assets/media/workshop-3.jpg");
+    background-image: url("/assets/media/roman-baths-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,7 +394,7 @@ body {
 .title-container {
     margin-top: 83px;
     text-align: center;
-    background-image: url("/assets/media/guitar8.jpg");
+    background-image: url("/assets/media/roman-baths-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -449,7 +457,7 @@ body {
 }
 
 .about-img-container {
-    background-image: url('/assets/media/workshop-3.jpg');
+    background-image: url('/assets/media/roman-baths-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -552,6 +560,11 @@ body {
     #contact-phone {
         text-decoration: none;
     }
+
+    .nav-logo {
+        height: 10px;
+        margin-top: 10px;
+    }
 }
 
 /*Navbar hamburger*/
@@ -581,6 +594,8 @@ body {
     .nav-logo {
         width: 50%;
         position: absolute;
+        height: 10px;
+        margin-top: 10px;
     }
 
     .nav-collapse-0 {
