@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+		
 	var isMobile = false; //initiate as false
 	// device detection
 	if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) 
@@ -6,16 +7,17 @@ $( document ).ready(function() {
 
 
 
-	var bg = jQuery("#background1");
-	jQuery(window).resize("resizeBackground");
-	function resizeBackground() {
-	    bg.height(jQuery(window).height() + 120);
-	}
-	resizeBackground();
+	// var bg = jQuery("#background1");
+	// jQuery(window).resize("resizeBackground");
+	// function resizeBackground() {
+	// 	console.log('resize');
+	//     bg.height(jQuery(window).height() + 120);
+	// }
+	// resizeBackground();
 
-	$('.map-overlay').click(function(){
-		window.location.href= '/contact.html';
-	});
+	// $('.map-overlay').click(function(){
+	// 	window.location.href= '/contact.html';
+	// });
 
 	if (isMobile) {
 		$('#homepage-phone').prop("href", "tel: +447400065409")

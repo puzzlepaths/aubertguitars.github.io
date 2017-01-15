@@ -68,6 +68,10 @@ body {
     background-color: rgba(0,0,0,1);
 }
 
+.navbar-logo-img {
+    width: 100%;
+}
+
 .navbar-p {
     font-family: Avenir-book, sans-serif ;
 }
@@ -103,6 +107,7 @@ body {
 /*    min-height: 110vh;
     max-height: 120vh;*/
     padding-top: 63px;
+    padding-bottom: 70px;
 }
 
 .homepage-bg-container {
@@ -110,7 +115,7 @@ body {
     opacity: 0.88;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 100px;
+    margin-top: 70px;
     width: 70%;
 }
 
@@ -202,7 +207,7 @@ body {
 
 }
 
-.triangle:before, .triangle:after {
+/*.triangle:before, .triangle:after {
     content:'';
     position: absolute;
     bottom: -1px;
@@ -221,7 +226,7 @@ body {
     border-left: solid 1000px transparent;
     max-width: 100%;
 
-}
+}*/
 
 .homepage-usps {
     text-align: center;
@@ -231,6 +236,7 @@ body {
 .usps-container {
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 0 10px;
 }
 
 .usps-img {
@@ -269,6 +275,30 @@ body {
 #homepage-map {
     height:400px;
     width: 100%;
+}
+
+.what-is {
+    background-color: #f5f5f5;
+}
+
+.what-is-inner {
+    max-width: 1000px:
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.what-is-title {
+    font-size:1.6125em;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 26px;
+} 
+
+.what-is-p {
+    padding: 0 12em;
+    text-align: center;
 }
 
 .quotes {
@@ -352,12 +382,23 @@ body {
 }
 
 .workshop-bg-img {
-    background-image: url("/assets/media/roman-baths-1.jpg");
+    background-image: url("/assets/media/crescent-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 50%;
     height: 371px;
+    float:left;
+}
+
+.workshop-bg-img-2 {
+    background-image: url("/assets/media/people-looking.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 371px;
+    float:left;
 }
 
 
@@ -529,9 +570,6 @@ body {
         margin:25px auto;
     }
 
-    .homepage-hero {
-        height: 688px;
-    }
 
     .map-overlay {
         display:inherit;
@@ -539,6 +577,36 @@ body {
 
     .priceguide-please-note, .please-note-ul {
         padding: 0px 8%;
+    }
+
+    .homepage-bg-container {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    .homepage-paragraph {
+        padding: 0px 10px;
+    }
+
+    .homepage-hero-button {
+        width: 35%!important;
+    }
+
+    .what-is-p {
+        padding: 0 2em;
+    }
+
+    .what-is-inner {
+        padding: 1em 0;
+    }
+
+    .workshop-bg-img {
+        width: 100%;
+    }
+
+    .workshop-bg-img-2 {
+        display: none;
     }
 }
 
@@ -565,6 +633,7 @@ body {
         height: 10px;
         margin-top: 10px;
     }
+
 }
 
 /*Navbar hamburger*/
