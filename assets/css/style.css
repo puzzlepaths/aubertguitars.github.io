@@ -653,7 +653,7 @@ body {
     }
 
     .my-gallery figure {
-        width: 100%;
+        /*width: 100%;*/
     }
 
     .about-img-container {
@@ -719,6 +719,32 @@ body {
 
     .how-to-play-inner {
         padding: 0 2em;
+    }
+
+    .product-page-outer {
+        padding:0px 24px;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .my-gallery figure {
+        display:none;
+    }
+
+    .my-gallery {
+        margin: auto;
+    }
+
+    .product-page-price {
+        margin-right: 0px;
+        display: block;
+    }
+
+    .product-page-title {
+        margin-top:0px;
+    }
+
+    .product-page-main-img {
+        display:initial!important;
     }
 }
 
