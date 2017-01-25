@@ -1,26 +1,161 @@
 ---
 layout: page
-tagline:
+gallery: yes
 ---
 
-<div class="pure-g title-container">
-	<h1>How To Play</h1>
-	<div class="line-break-2"></div>
-</div>
-
-<div class="pure-g about-container page-container">
-	<div class="about-img-container pure-u-lg-1-3">
-	</div>
-	<div class="pure-u-sm-1 pure-u-lg-2-3 about-text-1">
-		<p>Arthur’s various career paths in science, electronics and engineering finally merged into a lifetime of working with wood. He brings these varied experiences and skills to the world of guitar repair. The physics of sound, circuits and pick ups, the engineering of structure and the resonance of wood. These all feature at some point in the building and repair of guitars, electric or acoustic.</p>
-	</div>
-
-	<div class="line-break-2 line-break-about"></div>
 
 
+<div class="pure-g product-page-outer clearfix">
+  <div class="pure-u-sm-1 pure-u-md-1-2 product-page-title-container">
+    <h1 class="product-page-title">Puzzle Paths Bath</h1>
+    <p class="product-page-title-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+  </div>
+  <div class="pure-u-sm-1 pure-u-md-1-2 product-page-gallery-container">
+   <!--  <img src="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-1.jpg" alt="Puzzle Paths Bath" class="product-page-main-img"> -->
+    <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="product-page-main-img">
+        <a href="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-1.jpg" itemprop="contentUrl" data-size="1121x841">
+            <img src="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-1.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+     <!--  <figcaption itemprop="caption description">Repairing a semi-hollowbody</figcaption> -->
+                                            
+      </figure>
 
-	<div class="pure-u-sm-1 about-text-2">
-		<p class="about-text-2-p">"My aim is to provide a friendly and efficient guitar repair service. Every guitar is different and so is every guitar owner. I like my customers to drop by the workshop whenever they can and I am keen to discuss their requirements as much as is necessary to achieve complete satisfaction. All customers are welcome to come back anytime to make further adjustments if needed. I am diligent in my work ethic and I stand by the fact that the hands on attention of a luthier can realise the potential of an instrument in ways that factories simply cannot hope to achieve."<br><br>
-		-Arthur Aubert
-	</div>
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-1.jpg" itemprop="contentUrl" data-size="1121x841">
+            <img src="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-1.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+  	 <!--  <figcaption itemprop="caption description">Repairing a semi-hollowbody</figcaption> -->
+                                            
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-2.jpg" itemprop="contentUrl" data-size="1122x841">
+            <img src="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-2.jpg"itemprop="thumbnail" alt="Image description" />
+        </a>
+        <!-- <figcaption itemprop="caption description">Undder-saddle pickup replacement</figcaption> -->
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-3.jpg" itemprop="contentUrl" data-size="1120x840">
+            <img src="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-3.jpg"itemprop="thumbnail" alt="Image description" />
+        </a>
+        <!-- <figcaption itemprop="caption description">Installing a wiring kit for a strat</figcaption> -->
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-4.jpg" itemprop="contentUrl" data-size="1120x840">
+            <img src="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-4.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+        <!-- <figcaption itemprop="caption description">Copper shielding for the control cavity</figcaption> -->
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-5.jpg" itemprop="contentUrl" data-size="1121x840">
+            <img src="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-5.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+        <!-- <figcaption itemprop="caption description">Resetting loose frets on a bass</figcaption> -->
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-6.jpg" itemprop="contentUrl" data-size="1120x840">
+            <img src="{{ site.BASE_PATH }}/assets/media/gallery/min-gallery-6.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+        <!-- <figcaption itemprop="caption description">Dreadnought guitar build</figcaption> -->
+      </figure>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+      <!-- Background of PhotoSwipe. 
+           It's a separate element, as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
+
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
+
+          <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+          <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+          <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+          </div>
+
+          <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+          <div class="pswp__ui pswp__ui--hidden">
+
+              <div class="pswp__top-bar">
+
+                  <!--  Controls are self-explanatory. Order can be changed. -->
+
+                  <div class="pswp__counter"></div>
+
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                  <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                  <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                  <!-- element will get class pswp__preloader--active when preloader is running -->
+                  <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div> 
+              </div>
+
+              <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+              </button>
+
+              <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+              </button>
+
+              <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+              </div>
+            </div>
+          </div>
+      </div>
+  <div class="pure-u-sm-1 pure-u-md-1-2 product-page-info-container">
+    <h2 class="product-page-price"><span class="product-page-discount-span">£15</span>£10</h2>
+    <a href="https://www.simplegoods.co/i/OWEZRSZB">
+      <div class="homepage-central-button green-button"><span class="homepage-hero-button-span ">Buy Now</span></div>
+    </a>
+    <div class="line-break-product-page"></div>
+
+    <h2 class="product-page-h2">Sub title here</h2>
+    <p class="product-page-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <p class="product-page-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <p class="product-page-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <p class="product-page-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <p class="product-page-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <h2 class="product-page-h2">Sub title here</h2>
+    <p class="product-page-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <p class="product-page-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <h2 class="product-page-h2">Sub title here</h2>
+    <p class="product-page-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <p class="product-page-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <p class="product-page-info-p product-page-info-p-last">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quas quam quia ducimus quidem id sint molestiae tenetur est totam, quo mollitia veniam, delectus, vero asperiores autem recusandae iure earum.</p>
+    <a href="https://www.simplegoods.co/i/OWEZRSZB">
+      <div class="homepage-central-button green-button"><span class="homepage-hero-button-span ">Buy Now</span></div>
+    </a>
+  </div>
+
+<!-- closing pure-g -->
 </div>

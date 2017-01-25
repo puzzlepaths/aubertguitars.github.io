@@ -585,7 +585,7 @@ body {
 }
 
 /*Contact*/
-.contact-address, .contact-phone {
+.contact-address, .contact-phone, .contact-more {
     text-align: center;
 }
 
@@ -601,6 +601,14 @@ body {
 #contact-phone, #homepage-phone-2 {
     color: black;
     text-decoration: underline;
+}
+
+.contact-more {
+    margin-top:30px;
+}
+
+.contact-more a {
+    color:#31343b;
 }
 
 /*Workshop*/
@@ -640,6 +648,20 @@ body {
     text-align: left;
     margin-bottom: 60px;
 }
+
+/*FAQ*/
+.faq-inner {
+    padding: 100px 200px 0px 52px;
+}
+
+.faq-h3 {
+
+}
+
+.faq-p {
+    margin-bottom: 50px;
+}
+
 /*MEDIA QUERIES*/
 
 /*where 3 across becomes 1 */
@@ -746,6 +768,10 @@ body {
     .product-page-main-img {
         display:initial!important;
     }
+
+    .faq-inner {
+        padding: 100px 20px 0px 20px;
+}
 }
 
 /*MORE THAN MD = 768px */
