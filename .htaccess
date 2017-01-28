@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^puzzle-paths.com [NC]
+RewriteRule ^(.*)$ http://www.puzzle-paths.com/$1 [L,R=301]
