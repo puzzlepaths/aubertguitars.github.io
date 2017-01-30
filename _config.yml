@@ -12,12 +12,12 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Puzzle Paths - Bath's New Outdoor Walking Tour Adventure
+      title: Puzzle Paths Bath - Outdoor Walking Tour Adventure
 
 description: Puzzle Paths is the new way to explore Bath. Download and print out the mystery. Solving it will take you to all of the best sights in Bath!
 author:
   name: Greg
-  email: greg.puzzlepaths@gmail.com
+  email: hello.puzzlepaths@gmail.com
   github: 
   twitter: 
   pinterest: 
