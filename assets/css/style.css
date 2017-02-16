@@ -375,6 +375,14 @@ body {
     max-width: 100%;
 }
 
+.gallery-mobile-annotation {
+    display: none;
+}
+
+.gallery-mobile-annotation-container {
+    display: inline!important;
+}
+
 .block-button {
     display: block!important ;
     margin: 30px auto 44px auto ;
@@ -563,12 +571,14 @@ body {
     text-align:left;
 }
 
-.my-gallery img:first-child {
+.my-gallery figure:first-child img {
     max-width:100%;
+    height:initial;
 }
 
 .my-gallery img {
     max-width: 80%;
+    height:102px;
 }
 
 /*About*/
@@ -752,12 +762,24 @@ body {
         padding-top: 100px;
         text-align: center;
     }
+
+    .product-page-info-container ul {
+        list-style: none;
+        padding: 0px;
+    }
+
     .my-gallery figure {
         display:none;
     }
 
     .my-gallery {
         margin: auto;
+    }
+
+    .gallery-mobile-annotation {
+        display:initial;
+        font-size:13px;
+        color:grey;
     }
 
     .product-page-price {
